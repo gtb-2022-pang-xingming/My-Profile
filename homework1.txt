@@ -27,4 +27,4 @@ $ demand1
 # chmod +x demand1
 
 $ demand1
-# 'hello world'
+# 'hello world' is printed in git bash
