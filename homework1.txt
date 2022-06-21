@@ -1,0 +1,30 @@
+# Customer demand: show 'Hellow world' on the screen when people get in.
+# This is a script be designed to fullfill this demand.
+
+$ pwd
+$ mkdir CLI-homework
+$ cd CLI-homework
+$ git init
+$ touch homework1.txt
+$ code homework1.txt
+
+# homework1.txt is this file, noting down operation.
+
+$ idea ~/.bashrc
+$ notepad ./demand1
+
+# a new notepad 'demand1' is created, designed script as follow:
+    #! /bin/bash
+
+    echo hello world
+
+$ demand1
+
+# Problem! bash: demand1: command not found
+# solving problem: $ export PATH="$PWD:$PATH"
+
+# Problem! Permision deny
+# chmod +x demand1
+
+$ demand1
+# 'hello world'
